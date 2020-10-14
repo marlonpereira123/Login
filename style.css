@@ -1,0 +1,66 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://images5.alphacoders.com/916/916863.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.login-box{
+    width: 280px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 1.5;
+    color: white;
+}
+.login-box h1{
+    font-size: 40px;
+    float: left;
+    border-bottom: 2px solid #4acf50 ;
+}
+.login-box-found{
+    background:#06060640;
+    
+    height: 280px;
+    padding: 5px 40px;
+    border-radius: 10px;
+}
+.texbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    border-bottom: 1px solid #4acf50;
+    display: flex;
+    padding: 8px 0;
+    margin: 8px 0;
+
+}
+.texbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+    
+}
+.texbox input{
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+.btn{
+    width: 100%;
+    background: none;
+    color: white;
+    border: 2px solid #4acf50;
+    padding: 5px;
+    cursor: pointer;
+}
